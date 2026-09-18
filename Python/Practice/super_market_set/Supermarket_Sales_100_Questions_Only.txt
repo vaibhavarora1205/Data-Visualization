@@ -1,0 +1,143 @@
+SUPERMARKET SALES — PANDAS, NUMPY & DATA VISUALIZATION 100 PRACTICE
+QUESTIONS
+
+LEVEL 1 — BASIC PANDAS
+
+1.  How many rows and columns are there?
+2.  Display the first 10 rows.
+3.  Display the last 5 rows.
+4.  Find the names of all columns.
+5.  Find the data types of all columns.
+6.  Check whether there are any missing values.
+7.  Find the number of unique values in each column.
+8.  Find the number of unique cities.
+9.  Find the number of unique product lines.
+10. Find the number of unique payment methods.
+
+LEVEL 2 — value_counts()
+
+11. How many transactions came from each city?
+12. How many transactions came from each branch?
+13. How many transactions were made by each customer type?
+14. How many transactions were made by each gender?
+15. How many transactions belong to each product line?
+16. How many transactions used each payment method?
+17. Which product line has the most transactions?
+18. Which payment method was used the most?
+19. Which city has the most transactions?
+20. Which customer type appears the most?
+
+LEVEL 3 — mean(), sum(), max(), min()
+
+21. What is the average unit price?
+22. What is the average quantity purchased?
+23. What is the average total sales amount?
+24. What is the maximum total sale?
+25. What is the minimum total sale?
+26. What is the total revenue?
+27. What is the total gross income?
+28. What is the highest-rated transaction?
+29. What is the average customer rating?
+30. What is the total quantity of products sold?
+
+LEVEL 4 — FILTERING
+
+31. Find all transactions where the quantity is greater than 5.
+32. Find all transactions where the total is greater than 500.
+33. Find all transactions from Yangon.
+34. Find all transactions made by Members.
+35. Find all transactions where the payment method is Ewallet.
+36. Find all transactions from the Food and beverages product line.
+37. Find transactions where the rating is greater than 8.
+38. Find transactions where quantity > 5 AND total > 500.
+39. Find transactions from Yangon where the customer is a Member.
+40. Find transactions where the payment method is Credit card and
+    rating > 7.
+
+LEVEL 5 — GROUPBY()
+
+41. Find the total sales for each city.
+42. Find the average sales for each city.
+43. Find the total sales for each product line.
+44. Find the average rating for each product line.
+45. Find the total quantity sold for each product line.
+46. Find the average unit price for each product line.
+47. Find the total gross income for each branch.
+48. Find the average rating for each branch.
+49. Find the total sales for each payment method.
+50. Find the average sales for each customer type.
+
+LEVEL 6 — GROUPBY + MAXIMUM/MINIMUM
+
+51. Which city generated the highest total sales?
+52. Which product line generated the highest total sales?
+53. Which branch generated the highest gross income?
+54. Which product line has the highest average rating?
+55. Which payment method generated the highest total sales?
+56. Which customer type has the highest average transaction value?
+57. Which product line sold the highest total quantity?
+
+LEVEL 7 — MULTIPLE GROUPBY
+
+58. Find total sales for each city and product line.
+59. Find average sales for each city and product line.
+60. Find total quantity sold by each gender for each product line.
+61. Find average rating for each customer type and gender.
+62. Find total sales for each branch and payment method.
+63. Find average total sales for each city and customer type.
+64. Find which city + product line combination generated the highest
+    sales.
+
+LEVEL 8 — SORTING
+
+65. Sort transactions by Total from highest to lowest.
+66. Find the top 10 transactions by total sales.
+67. Find the bottom 10 transactions by total sales.
+68. Sort product lines according to total sales.
+69. Sort cities according to average sales.
+70. Find the top 5 transactions with the highest gross income.
+
+LEVEL 9 — DATE & TIME
+
+71. Convert the Date column into datetime format.
+72. Find the earliest transaction date.
+73. Find the latest transaction date.
+74. Extract the month from the date.
+75. Find the number of transactions on each date.
+76. Find total sales for each date.
+77. Find the date with the highest total sales.
+78. Find the average sales for each day.
+
+LEVEL 10 — VISUALIZATION
+
+79. Create a bar chart showing number of transactions by city.
+80. Create a bar chart showing total sales by product line.
+81. Create a bar chart showing total sales by branch.
+82. Create a pie chart showing payment method distribution.
+83. Create a bar chart showing average rating by product line.
+84. Create a histogram of Total.
+85. Create a histogram of Rating.
+86. Create a scatter plot between Unit price and Total.
+87. Create a scatter plot between Quantity and Total.
+88. Create a line chart showing total sales by date.
+
+LEVEL 11 — MINI ANALYSIS
+
+89. Which city has the highest average transaction value?
+90. Which product line generates the most revenue?
+91. Which product line has the highest average customer rating?
+92. Do Members or Normal customers have higher average transaction
+    values?
+93. Which payment method is associated with the highest average
+    transaction value?
+94. Which city has the highest total gross income?
+95. Which product line sells the highest quantity but doesn’t
+    necessarily generate the highest revenue?
+96. Find the top 5 individual transactions and display their city,
+    product line, quantity and total.
+97. Find the city + product line combination with the highest total
+    revenue.
+98. Find the product line with the highest average unit price.
+99. Find the branch with the highest average rating.
+100. Create one visualization that summarizes the sales performance of
+     all product lines.
